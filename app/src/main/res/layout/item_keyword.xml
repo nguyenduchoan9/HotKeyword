@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rlContainer"
+    android:layout_width="wrap_content"
+    android:layout_height="@dimen/space_80_dp"
+    android:layout_margin="@dimen/space_4_dp"
+    android:background="@drawable/rounded_corner">
+
+    <TextView
+        android:id="@+id/tvKeyword"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:padding="@dimen/space_16_dp"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/text_size_16_sp"
+        tools:background="@color/colorAccent"
+        tools:text="Bitits" />
+</RelativeLayout>
