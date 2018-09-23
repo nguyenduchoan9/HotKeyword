@@ -5,10 +5,20 @@
     android:layout_height="match_parent"
     tools:context=".ui.HotKeyword.HotKeywordActivity">
 
+    <TextView
+        android:id="@+id/tvKeyword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/space_8_dp"
+        android:textSize="@dimen/space_16_dp"
+        android:layout_margin="@dimen/space_4_dp"
+        android:text="@string/label_hot_keyword" />
+
     <android.support.v7.widget.RecyclerView
         android:id="@+id/rvKeywords"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvKeyword"
         android:paddingLeft="@dimen/space_4_dp"
         android:paddingRight="@dimen/space_4_dp" />
 
